@@ -15,6 +15,7 @@ public class LineLength {
 		String Length1 = Double.toString(line1);
 		double line2 = CalcLen(l2x1,l2x2,l2y1,l2y2);
 		String Length2 = Double.toString(line2);
+<<<<<<< HEAD
 		System.out.println("Length of Line 1 is: "+Length1);
 		System.out.println("Length of Line 2 is: "+Length2);
 <<<<<<< HEAD
@@ -30,12 +31,30 @@ public class LineLength {
 		}
 >>>>>>> UC-2-EqualityChecker
 		}
+=======
+		int comparison = (Length1.compareTo(Length2));
+		
+		if(comparison>=1) {
+			System.out.println("Line 1 is longer than Line 2");
+		}
+		else if(comparison==00){
+			System.out.println("Both lines are Equal in Length");
+		}
+		else {
+			System.out.println("Line 1 is shorter than Line 2");
+		}
+		}
+	
+>>>>>>> UC-3-LineComparison
 		public static int RandomPoint() {
 		return (int)Math.floor(Math.random()*100);
 		}
 		public static double CalcLen(int x1,int x2,int y1,int y2) {
 		return Math.sqrt(((int)Math.pow((x2-x1), 2)+(int)Math.pow((x2-x1), 2)));
+<<<<<<< HEAD
 		
+=======
+>>>>>>> UC-3-LineComparison
 		}
 	}
 		
