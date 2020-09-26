@@ -17,6 +17,18 @@ public class LineLength {
 		String Length2 = Double.toString(line2);
 		System.out.println("Length of Line 1 is: "+Length1);
 		System.out.println("Length of Line 2 is: "+Length2);
+<<<<<<< HEAD
+=======
+		
+		boolean equalTo = (Length1.equals(Length2));
+		
+		if (equalTo==true) {
+			System.out.println("Two Lines are Equal in Length");
+		}
+		else {
+			System.out.println("Two Lines are unEqual in Length");
+		}
+>>>>>>> UC-2-EqualityChecker
 		}
 		public static int RandomPoint() {
 		return (int)Math.floor(Math.random()*100);
